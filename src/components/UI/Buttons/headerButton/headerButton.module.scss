@@ -1,0 +1,15 @@
+@import 'src/components/UI/colors/colors';
+
+.headerButton{
+  width: 96px;
+  height: 55px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  &:hover{
+    border: 1px solid $headerButtonBorderColor;
+    background-color: $headerButtonHoverBackground;
+    border-radius: 10px;
+  }
+}
