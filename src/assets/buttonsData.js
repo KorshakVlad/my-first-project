@@ -1,7 +1,7 @@
 export const buttonsData = [
     {
         id: 1,
-        name: 'home',
+        name: 'Home',
         path: '/'
     },
     {

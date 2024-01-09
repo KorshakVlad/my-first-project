@@ -1,6 +1,11 @@
 @import 'src/components/UI/colors/colors';
 
 .headerButton{
+  font-family: Urbanist;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
   width: 96px;
   height: 55px;
   background-color: transparent;
