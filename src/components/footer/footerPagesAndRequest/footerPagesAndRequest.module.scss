@@ -1,0 +1,10 @@
+@import 'src/components/UI/colors/colors';
+
+.footerPagesAndRequest {
+  display: flex;
+  height: 454px;
+  background-color: $navBarBackgroundColor;
+  padding: 100px 162px;
+  gap: 80px;
+  max-height: 454px;
+}

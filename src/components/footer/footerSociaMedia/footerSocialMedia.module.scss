@@ -1,0 +1,9 @@
+@import '../../UI/colors/colors';
+
+.footerSocialMedia{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 162px;
+  background-color: $footerSocialMediaBackground;
+}

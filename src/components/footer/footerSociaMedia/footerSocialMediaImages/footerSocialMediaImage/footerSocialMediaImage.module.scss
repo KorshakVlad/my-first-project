@@ -1,0 +1,12 @@
+
+@import '../../../../UI/colors/colors';
+
+.footerSocialMediaImageContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 52px;
+  width: 52px;
+  background-color: $headerButtonHoverBackground;
+  border-radius: 50%;
+}

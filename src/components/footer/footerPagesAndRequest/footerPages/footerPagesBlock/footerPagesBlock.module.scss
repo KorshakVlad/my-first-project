@@ -1,0 +1,26 @@
+@import '../../../../UI/colors/colors';
+
+.footerPagesBlock{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerPagesLinkName{
+  color: $footerPagesLinkName;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.12px;
+}
+
+.footerPagesLink{
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.108px;
+  text-decoration: none;
+}
