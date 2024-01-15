@@ -4,13 +4,15 @@ import NavBarButtonsContainer from "./NavBarButtonsContainer.jsx";
 import BlackButton from "../../UI/Buttons/blackButton/BlackButton.jsx";
 import NavBarLogoContainer from "./NavBarLogoContainer.jsx";
 
+const BUTTON_TEXT = 'Contact us';
+
 const NavBar = () => {
     return (
         <div className={className.navBar}>
             <div className={className.navBarContainer}>
                 <NavBarLogoContainer/>
                 <NavBarButtonsContainer/>
-                <BlackButton name={'Contact us'}/>
+                <BlackButton name={BUTTON_TEXT}/>
             </div>
         </div>
     )

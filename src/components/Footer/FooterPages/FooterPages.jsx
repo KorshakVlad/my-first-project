@@ -3,6 +3,7 @@ import {FooterPagesBlock} from "./FooterPagesBlock.jsx";
 
 export const FooterPages = () => {
 
+    //TODO map or object
     const home = ['Hero Section', 'Features', 'Properties', 'Testimonials', "FA'Qs"]
     const aboutUs = ['Our Story', 'Our works', 'How it Works', 'Our Team', "Our Clients"]
     const properties = ['Portfolio', 'Categories']

@@ -6,6 +6,8 @@ import Youtube from '../../../images/youtube.svg'
 
 import {FooterSocialMediaImage} from "./FooterSocialMediaImage.jsx";
 
+//TODO all images to array
+
 export const FooterSocialMediaContainer = () => {
     return (
         <div className={className.footerSocialMediaContainer}>

@@ -2,6 +2,8 @@ import mail from '../../../images/mail.svg'
 import send from '../../../images/send.svg'
 import className from './footerRequestInput.module.scss'
 export const FooterRequestInput = () =>{
+    //TODO replace inline styles
+
     return(
         <div className={className.footerRequestInputContainer}>
             <span style={{
