@@ -1,12 +1,4 @@
-@import 'src/components/UI/colors/colors';
-
-.blackButton{
-  height: 63px;
-  gap: 8px;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
-}
+@import '../colors/colors';
 
 @mixin standardButtonStyle(
   $padding,
@@ -16,20 +8,20 @@
   $hoverBackgroundColor,
   $hoverBorder,
   $hoverBorderRadius
-){
+) {
   padding: $padding;
   background-color: $backgroundColor;
   border: $border;
   border-radius: $borderRadius;
   color: white;
-  &:hover{
+  &:hover {
     background-color: $hoverBackgroundColor;
     border: $hoverBorder;
     border-radius: $hoverBorderRadius;
   }
 }
 
-@mixin buttonTextStyle{
+@mixin buttonTextStyle {
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -38,32 +30,38 @@
   color: #FFF;
 }
 
-.headerNavBarButton{
+.headerNavBarButton {
   @include standardButtonStyle(
                   18px 24px,
                   $headerButtonHoverBackground,
                   1px solid $headerButtonBorderColor,
                   10px,
-  $headerButtonHoverBackground,
+                  $headerButtonHoverBackground,
                   1px solid $headerButtonBorderColor,
-  12px,
-
+                  12px,
   );
   @include buttonTextStyle;
 }
 
 
-.headerNavBarPageButton{
+.headerNavBarPageButton {
   @include standardButtonStyle(
-    none,
-    transparent,
-    none,
-    none,
-    $headerButtonHoverBackground,
-    1px solid $headerButtonBorderColor,
-    10px
+                  none,
+                  transparent,
+                  none,
+                  none,
+                  $headerButtonHoverBackground,
+                  1px solid $headerButtonBorderColor,
+                  10px
   );
   @include buttonTextStyle;
   width: 96px;
   height: 55px;
+}
+
+.ourAchievementsButton {
+  @include standardButtonStyle(
+                  18px 24px, #703BF7, none, 10px, none, none, none
+  );
+  @include buttonTextStyle;
 }

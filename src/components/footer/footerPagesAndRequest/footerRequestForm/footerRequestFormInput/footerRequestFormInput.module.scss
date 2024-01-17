@@ -1,24 +1,24 @@
 @import '../../../../UI/colors/colors';
 
 .footerRequestFormInput{
-  padding: 18px 24px;
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  border-radius: 12px;
-  border: 1px solid $headerButtonBorderColor;
+  align-items: center;
   gap: 10px;
+  padding: 18px 24px;
+  border: 1px solid $headerButtonBorderColor;
+  border-radius: 12px;
 }
 
 .footerRequestInput{
-  background-color: transparent;
-  border: none;
+  width: 100%;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
+  border: none;
+  background-color: transparent;
   color: $footerInputColor;
-  width: 100%;
 }
 
 .footerRequestInputSpan{

@@ -2,9 +2,9 @@
 
 .footerPagesAndRequest {
   display: flex;
-  height: 454px;
-  background-color: $navBarBackgroundColor;
-  padding: 100px 162px;
   gap: 80px;
+  height: 454px;
   max-height: 454px;
+  padding: 100px 162px;
+  background-color: $navBarBackgroundColor;
 }
