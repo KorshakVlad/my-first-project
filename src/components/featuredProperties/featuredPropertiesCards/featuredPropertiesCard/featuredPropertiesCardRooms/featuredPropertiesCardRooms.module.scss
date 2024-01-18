@@ -1,0 +1,24 @@
+@import 'src/components/UI/colors/colors';
+
+.featuredPropertiesCardRooms{
+  display: flex;
+  gap: 10px;
+}
+
+.featuredPropertiesCardRoomsItem{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 8px 14px;
+  border: 1px solid $featuredPropertiesCardRoomBorder;
+  border-radius: 28px;
+  background-color: $featuredPropertiesCardRoomBackground;
+}
+
+.featuredPropertiesCardRoomsItemText{
+  color: $featuresPropertiesCardTextHeader;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}

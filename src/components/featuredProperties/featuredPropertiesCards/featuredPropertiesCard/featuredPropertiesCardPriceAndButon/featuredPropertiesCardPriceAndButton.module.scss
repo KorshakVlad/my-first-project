@@ -1,0 +1,23 @@
+@import 'src/components/UI/colors/colors';
+
+.featuredPropertiesCardPriceAndButton{
+  display: flex;
+  gap: 50px;
+  width: 100%;
+}
+
+.featuredPropertiesCardPriceAndButtonHeader{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  color: $featuredPropertiesCardPriceAndButtonHeader;
+}
+
+.featuredPropertiesCardPriceText{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  color: $featuredPropertiesCardPriceText;
+}

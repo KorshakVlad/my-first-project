@@ -1,0 +1,15 @@
+@import 'src/components/UI/colors/colors';
+
+.featuredPropertiesHeader{
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
+  padding: 160px;
+  background-color: $featuresPropertiesBackgroundColor;
+}
+
+.featuredPropertiesContent{
+  display: flex;
+  justify-content: center;
+  background-color: $featuresPropertiesBackgroundColor
+}

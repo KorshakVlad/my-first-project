@@ -1,0 +1,23 @@
+@import "src/components/UI/colors/colors";
+
+.featuredPropertiesCardTextContent{
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.featuredPropertiesCardTextHeader{
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: $featuresPropertiesCardTextHeader;
+}
+
+.featuredPropertiesCardText{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  color: $featuredPropertiesCardText;
+}

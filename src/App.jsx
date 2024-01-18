@@ -2,7 +2,9 @@ import "./App.css";
 import Header from "./shared/Header/Header.jsx";
 import { Outlet } from "react-router";
 import Footer from "./shared/Footer/Footer.jsx";
-import { OurAchievements } from "./shared/OurAchievements/OurAchievements.jsx";
+import { Achievements } from "./shared/Achievements/Achievements.jsx";
+import { Offers } from "./components/offers/Offers.jsx";
+import { FeaturedProperties } from "./components/featuredProperties/FeaturedProperties.jsx";
 
 //TODO разнеси на разные файлы scss.
 
@@ -12,7 +14,9 @@ function App() {
       <Header />
       <Outlet />
       <main>
-        <OurAchievements />
+        <Achievements />
+        <Offers />
+        <FeaturedProperties />
       </main>
       <Footer />
     </>

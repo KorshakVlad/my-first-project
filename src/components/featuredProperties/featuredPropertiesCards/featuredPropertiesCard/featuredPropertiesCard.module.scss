@@ -1,0 +1,13 @@
+@import 'src/components/UI/colors/colors';
+
+.featuredPropertiesCard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 512px;
+  padding: 40px;
+  gap: 30px;
+  flex: 1 0 0;
+  border: 1px solid $featuresPropertiesCardBorder;
+  border-radius: 12px;
+}

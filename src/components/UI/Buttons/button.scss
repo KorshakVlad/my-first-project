@@ -1,34 +1,5 @@
+@import "buttonsMixins";
 @import '../colors/colors';
-
-@mixin standardButtonStyle(
-  $padding,
-  $backgroundColor,
-  $border,
-  $borderRadius,
-  $hoverBackgroundColor,
-  $hoverBorder,
-  $hoverBorderRadius
-) {
-  padding: $padding;
-  background-color: $backgroundColor;
-  border: $border;
-  border-radius: $borderRadius;
-  color: white;
-  &:hover {
-    background-color: $hoverBackgroundColor;
-    border: $hoverBorder;
-    border-radius: $hoverBorderRadius;
-  }
-}
-
-@mixin buttonTextStyle {
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 150%;
-  cursor: pointer;
-  color: #FFF;
-}
 
 .headerNavBarButton {
   @include standardButtonStyle(
@@ -61,7 +32,39 @@
 
 .ourAchievementsButton {
   @include standardButtonStyle(
-                  18px 24px, #703BF7, none, 10px, none, none, none
+                  18px 24px,
+                  #703BF7,
+                  none,
+                  10px,
+                  none,
+                  none,
+                  none
   );
   @include buttonTextStyle;
+}
+
+.featuresPropertiesButton {
+  @include standardButtonStyle(
+                  18px 24px,
+                  #1A1A1A,
+                  1px solid #262626,
+                  10px,
+                  none,
+                  none,
+                  none
+  )
+}
+
+.featuredPropertiesCardButton {
+  @include standardButtonStyle(
+                  18opx 24px,
+                  $featuredPropertiesCardButton,
+                  none,
+                  10px,
+                  $featuredPropertiesCardButton,
+                  none,
+                  10px
+  );
+  @include buttonTextStyle;
+  width: 100%;
 }

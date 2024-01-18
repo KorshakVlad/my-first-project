@@ -1,0 +1,14 @@
+@import 'src/components/UI/colors/colors';
+
+.achievements {
+  display: flex;
+  padding-left: 162px;
+  align-items: center;
+  background-color: $footerBackgroundColor;
+  justify-content: center;
+  gap: 80px;
+}
+
+.achievementsImage{
+  position: absolute;
+}

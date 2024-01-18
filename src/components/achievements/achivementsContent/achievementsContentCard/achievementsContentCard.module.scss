@@ -1,0 +1,30 @@
+@import 'src/components/UI/colors/colors';
+
+.achievementsCard{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  padding: 16px 24px;
+  flex: 1 0 0;
+  background: $achievementsCardBackgroundColor;
+  border: 1px solid $achievementsCardBorderColor;
+  border-radius: 12px;
+}
+
+.achievementsCardHeader{
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 60px */
+  color:  #FFF;
+}
+
+.achievementsCardText{
+  align-self: stretch;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  color: $achievementsCardTextColor;
+}

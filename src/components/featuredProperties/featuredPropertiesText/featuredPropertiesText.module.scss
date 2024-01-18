@@ -1,0 +1,22 @@
+.featuredPropertiesText{
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 1200px;
+}
+
+.featuredPropertiesTextHeader{
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+  color: #FFF;
+}
+
+.featuredPropertiesTextInfo{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  color: #999;
+}
