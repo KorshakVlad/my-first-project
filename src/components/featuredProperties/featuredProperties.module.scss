@@ -4,12 +4,17 @@
   display: flex;
   justify-content: space-between;
   gap: 200px;
-  padding: 160px;
-  background-color: $featuresPropertiesBackgroundColor;
 }
 
 .featuredPropertiesContent{
   display: flex;
   justify-content: center;
+}
+
+.featuredProperties{
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  padding: 160px;
   background-color: $featuresPropertiesBackgroundColor
 }

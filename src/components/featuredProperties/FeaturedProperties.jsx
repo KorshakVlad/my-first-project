@@ -4,7 +4,7 @@ import { FeaturedPropertiesButton } from "./featuredPropertiesButton/featuredPro
 import { FeaturedPropertiesCards } from "./featuredPropertiesCards/FeaturedPropertiesCards.jsx";
 export const FeaturedProperties = () => {
   return (
-    <article>
+    <article className={className.featuredProperties}>
       <header className={className.featuredPropertiesHeader}>
         <FeaturedPropertiesText />
         <FeaturedPropertiesButton />
