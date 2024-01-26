@@ -33,4 +33,54 @@ export const featuredProperties = [
     type: "villa",
     price: 550.0,
   },
+  {
+    image: Cottage,
+    name: "Rustic Retreat Cottage",
+    description:
+      "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community... ",
+    bedroom: 3,
+    bathroom: 3,
+    type: "villa",
+    price: 550.0,
+  },
+  {
+    image: Cottage,
+    name: "Rustic Retreat Cottage",
+    description:
+      "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community... ",
+    bedroom: 3,
+    bathroom: 3,
+    type: "villa",
+    price: 550.0,
+  },
+  {
+    image: Cottage,
+    name: "Rustic Retreat Cottage",
+    description:
+      "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community... ",
+    bedroom: 3,
+    bathroom: 3,
+    type: "villa",
+    price: 550.0,
+  },
+  {
+    image: Cottage,
+    name: "Rustic Retreat Cottage",
+    description:
+      "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community... ",
+    bedroom: 3,
+    bathroom: 3,
+    type: "villa",
+    price: 550.0,
+  },
+  {
+    image: Cottage,
+    name: "Rustic Retreat Cottage",
+    description:
+      "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community... ",
+    bedroom: 3,
+    bathroom: 3,
+    type: "villa",
+    price: 550.0,
+  },
 ];

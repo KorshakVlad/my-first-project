@@ -1,8 +1,7 @@
-import { featuredProperties } from "../../../constants/featuredPropertiesCards.js";
 import className from "./featuredPropertiesCards.module.scss";
 import { FeaturedPropertiesCard } from "./featuredPropertiesCard/FeaturedPropertiesCard.jsx";
 
-export const FeaturedPropertiesCards = () => {
+export const FeaturedPropertiesCards = ({ featuredProperties }) => {
   return (
     <div className={className.featuredPropertiesCards}>
       {featuredProperties.map((card) => (

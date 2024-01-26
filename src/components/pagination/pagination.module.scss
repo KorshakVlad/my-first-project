@@ -1,0 +1,23 @@
+@import 'src/components/UI/colors/colors';
+
+.pagination{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid $paginationButtonsBorder;
+}
+
+.paginationButtonsText{
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  color: $paginationButtonsTextColor;
+}
+
+.paginationButtons{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
